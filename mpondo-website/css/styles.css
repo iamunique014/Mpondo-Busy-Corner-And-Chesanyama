@@ -1,0 +1,32 @@
+:root {
+  --brand-dark: #111;
+  --brand-accent: #ffc107;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero {
+  min-height: 70vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url("../images/hero-placeholder.jpg") center/cover no-repeat;
+}
+
+h1,
+h2,
+h3 {
+  letter-spacing: 0.2px;
+}
+
+section {
+  scroll-margin-top: 80px;
+}
+
+.card {
+  border: none;
+}
+
+footer {
+  background: var(--brand-dark);
+}
