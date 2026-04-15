@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (specialBtn && specialMessage) {
     specialBtn.addEventListener("click", () => {
-      specialMessage.textContent = "Today's special: Buy 1 Beef Ribs Plate, get free 500ml drink!";
+      specialMessage.textContent = "Known for a lively atmosphere, late closing hours (2:00 AM), and a 4.6★ Google rating.";
     });
   }
 });
